@@ -7,3 +7,12 @@
 ```Markdown
 eaf87acbac89ac8a8e99d9cb8ad
 ```
+#### Shuzhou LLC ShuScript HashScript:
+```Markdown
+function getHash(){
+    shuscript_int_x64 hash;
+    generate.hash(fromwebsite("shuhash://get.shuhash/?getlatest=TRUE"),getElementbyId hash);
+    return generate.hash(FROMBEFORE);
+}
+print getHash();
+```
