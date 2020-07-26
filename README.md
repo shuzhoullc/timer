@@ -16,3 +16,4 @@ function getHash(){
 }
 print getHash();
 ```
+##### (c)2020 Shuzhou LLC. All rights reserved.
